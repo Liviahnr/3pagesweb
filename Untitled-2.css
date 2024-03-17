@@ -1,0 +1,179 @@
+.parent {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: orange;
+    border: 3px solid black;
+    border-radius: 15px;
+    align-self: flex-end; 
+    max-width: fit-content; 
+    margin-left: auto;
+}
+
+.background img{
+    background-image: url('documents/IIM/Sitecoding/1102284.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 117vh;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0%;
+ }  
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;  
+    position: relative;
+ }
+ .flex-container {
+    display: flex;
+    justify-content: flex-end;
+    background-color: orange;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+/*emplacement logo*/
+.logo {
+    width: 200px;
+    height: auto;
+}
+/*taille du logo*/
+.logo img {
+    width: 200px;
+}
+.seconnecter {
+    display: flex;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    background-color: orange;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.blockaccueil {
+    display: flex;
+    background-color: orange; 
+    padding: 15px;
+    margin: 0%;
+    margin-left: 0%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.blockblancsousaccueil{
+    margin:  0px ;
+    padding-block-end: 30px;
+    background-color: whitesmoke;
+}
+.blockprincipal{
+    display: flex;
+    padding: 20px; /* Ajustement de la marge interne */
+    margin: auto; /* Mise en marge automatique pour centrer horizontalement */
+    position: absolute;
+    top: 50%; /* Position au milieu de la fenêtre */
+    left: 50%; /* Position au milieu de la fenêtre */
+    transform: translate(-50%, -50%); /* Centrage horizontal et vertical */
+    background-color: rgba(255, 255, 255, 0.8);
+    height: auto;
+}
+
+.flex-blockprincipal {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-left: 20%;
+    width: 80%;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    justify-content: flex start;
+    border-left: 15px solid #007bff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    background-color: #f8f9fa; 
+/*propriétés du texte*/
+}
+
+.WizzardingMag {
+    background-color: whitesmoke;
+    margin-right: 0%;
+    padding: 20px; 
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.photojournal {
+ max-width: 50%;
+    height: auto;
+    bottom: auto;
+}
+/*Style des boutons Accueil/la boutique et le Magazine*/
+.bouton1,
+.bouton2,
+.bouton3 {
+    margin-left: 20px;
+}
+h2 {
+    margin: 0;
+}
+footer {
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+
+    section {
+      text-align: justify-all;
+      position:relative;
+      margin-bottom: auto;
+    }
+    .text-content, image-content {
+      width: 50%;
+    }
+    .parent {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        background-color: orange;
+        border: 3px solid black;
+        border-radius: 15px;
+        max-width: fit-content; /* Ajuster la largeur au contenu */
+    
+    }
+    .categories {
+        margin-left: 60PX;
+        }
+        .cat1 {
+        margin-Right: 60px;
+        }
+    }
+    

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+}
+.parent {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    background-color: orange;
+    border: 3px solid black;
+    border-radius: 15px;
+    align-self: flex-end; 
+    max-width: fit-content; 
+    margin-left: auto;
+}
+
+/*emplacement logo*/
+.logo {
+    width: 200px;
+    height: auto;
+}
+/*taille du logo*/
+.logo img {
+    width: 200px;
+}
+.barrederecherche {
+margin-left: 1080px;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.cat1 {
+    background-color: orange;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.cat1 img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color:grey;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+
+    section {
+      text-align: justify-all;
+      position:absolute;
+      margin-bottom: auto;
+    }
+    .text-content, image-content {
+      width: 50%;
+    }
+    .parent {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        background-color: orange;
+        border: 3px solid black;
+        border-radius: 15px;
+        max-width: fit-content;
+        position: absolute;
+    
+    }
+    .categories {
+        margin-left: 60px;
+        }
+        .cat1 {
+        margin-Right: 60px;
+        }
+    }
+    
